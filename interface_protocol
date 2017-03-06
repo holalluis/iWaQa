@@ -1,0 +1,7 @@
+# Defines symbols to expose from the shared library
+# Conforms to iWQModel plugin specification 1.0
+_iWQModelCreate
+_iWQModelDestroy
+_iWQModelIdentifier
+_iWQPluginMajorVersion
+_iWQPluginMinorVersion

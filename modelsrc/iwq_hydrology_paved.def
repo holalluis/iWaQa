@@ -1,0 +1,5 @@
+0000000000001620 (__TEXT,__text) external _iWQModelCreate
+0000000000001660 (__TEXT,__text) external _iWQModelDestroy
+0000000000001680 (__TEXT,__text) external _iWQModelIdentifier
+00000000000016c0 (__TEXT,__text) external _iWQPluginMajorVersion
+00000000000016d0 (__TEXT,__text) external _iWQPluginMinorVersion
