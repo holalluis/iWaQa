@@ -254,7 +254,7 @@ void iWQParameterManager::initFromFile(std::string filename)
 	std::map<std::string, double> new_values;	//temporary container for new values
 	
 	//get new values from the file
-	while(fgets(Buffer,512,in)>0){
+	while(fgets(Buffer,512,in)){
 	
 		std::string line=Buffer;
 		//filter out whitespace
@@ -331,7 +331,7 @@ void iWQParameterManager::initFromTabDelimitedFile(std::string filename)
 	mParams.clear();
 	
 	//get new values from the file
-	while(fgets(Buffer,512,in)>0){
+	while(fgets(Buffer,512,in)){
 	
 		std::string line=Buffer;
 		
